@@ -1,4 +1,4 @@
 let
   pkgs = import <nixpkgs> {};
 in
-pkgs.callPackage ./adbforwarder.nix {}
+pkgs.callPackage ./package.nix {}
